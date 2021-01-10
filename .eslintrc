@@ -4,7 +4,9 @@
     "one-var": "off",
     "semi": ["error", "always", {
       "omitLastInOneLineBlock": true
-    }]
+    }],
+    "comma-dangle": ["error", "always-multiline"],
+    "multiline-ternary": "off"
   },
   "parser": "babel-eslint",
   "plugins": [
@@ -13,7 +15,7 @@
      * Only warn for EVERYTHING (for now)
      *
      */
-    "only-warn" 
+    "only-warn"
   ],
   "settings": {
     "react": {
