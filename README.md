@@ -1,76 +1,20 @@
-<div align="center">
+# @technote-space/material-table
 
-  <!-- Title -->
-  <h1>@technote-space/material-table</h1>
+a fork of [mbrn/material-table](https://material-table.com)
 
-  <!-- Subtitle : a fork of mbrn/material-table -->
-  <h4>
-    a fork of 
-    <code>
-      <a 
-        target="_blank" 
-        rel="noopener noreferrer"
-        href="https://material-table.com"
-      >
-        mbrn/material-table
-      </a>
-    </code>
-  </h4>
+[![npm version](https://badge.fury.io/js/%40technote-space%2Fmaterial-tabler.svg)](https://badge.fury.io/js/%40technote-space%2Fmaterial-tabler)
+[![CI Status](https://github.com/technote-space/material-tabler/workflows/CI/badge.svg)](https://github.com/technote-space/material-tabler/actions)
+[![codecov](https://codecov.io/gh/technote-space/material-tabler/branch/master/graph/badge.svg)](https://codecov.io/gh/technote-space/material-tabler)
+[![CodeFactor](https://www.codefactor.io/repository/github/technote-space/material-tabler/badge)](https://www.codefactor.io/repository/github/technote-space/material-tabler)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/technote-space/material-tabler/blob/master/LICENSE)
 
-  <!-- * Badges * -->
-  <p>
-    <section>
-      <!-- build status -->
-      <a href="https://github.com/material-table-core/core/actions?query=workflow%3ABuild">
-        <img 
-          title="Build" 
-          src="https://github.com/material-table-core/core/workflows/Build/badge.svg?branch=master"
-        >
-      </a>
-      <!-- publish status -->
-      <a href="https://github.com/material-table-core/core/actions?query=workflow%3APublish">
-        <img 
-          title="Publish" 
-          src="https://github.com/material-table-core/core/workflows/Publish/badge.svg"
-        >
-      </a>
-      <!-- npm package -->
-      <a href="https://www.npmjs.com/package/@technote-space/material-table">
-        <img 
-          title="npm_package" 
-          src="https://badge.fury.io/js/%40material-table%2Fcore.svg"
-        >
-      </a>
-    </section>
-    <section>
-      <!-- discord -->
-      <a href="https://discord.com/channels/796859493412765697/">
-        <img 
-           alt="Discord" 
-           src="https://img.shields.io/discord/796859493412765697?label=discord"
-         >
-      </a>    
-    </section>
-  </p> 
-  <!-- ^^^ end badges ^^^ -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- param::isFolding::false:: -->
+<!-- param::isNotitle::true:: -->
+<!-- param::isCustomMode::true:: -->
 
-</div>
-
-💾 [Installation](#installation)
-
-🎉 [Usage](#usage)
-
-✅ [Why does this repo exist?](#about)
-
-🚧 [Documentation](#documentation) [[contribute to the docs](https://github.com/material-table-core/website)] (_work in progress_)
-
-⚙️ [Example code](https://material-table-core.github.io/examples) (_work in progress_)
-
-💬 [Have a suggestion?](https://github.com/material-table-core/core/discussions)
-
-❌ Have an existing issue/PR at `mbrn/material-table`? We are actively deploying - please feel free to open an issue/PR
-
-💪 [How to contribute](#contributing)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
 
