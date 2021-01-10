@@ -2,11 +2,10 @@
 
 a fork of [mbrn/material-table](https://material-table.com)
 
-[![npm version](https://badge.fury.io/js/%40technote-space%2Fmaterial-tabler.svg)](https://badge.fury.io/js/%40technote-space%2Fmaterial-tabler)
-[![CI Status](https://github.com/technote-space/material-tabler/workflows/CI/badge.svg)](https://github.com/technote-space/material-tabler/actions)
-[![codecov](https://codecov.io/gh/technote-space/material-tabler/branch/master/graph/badge.svg)](https://codecov.io/gh/technote-space/material-tabler)
-[![CodeFactor](https://www.codefactor.io/repository/github/technote-space/material-tabler/badge)](https://www.codefactor.io/repository/github/technote-space/material-tabler)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/technote-space/material-tabler/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/%40technote-space%2Fmaterial-table.svg)](https://badge.fury.io/js/%40technote-space%2Fmaterial-table)
+[![CI Status](https://github.com/technote-space/material-table/workflows/CI/badge.svg)](https://github.com/technote-space/material-table/actions)
+[![CodeFactor](https://www.codefactor.io/repository/github/technote-space/material-table/badge)](https://www.codefactor.io/repository/github/technote-space/material-table)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/technote-space/material-table/blob/master/LICENSE)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
