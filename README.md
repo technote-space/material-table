@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Title -->
-  <h1>@material-table/core</h1>
+  <h1>@technote-space/material-table</h1>
 
   <!-- Subtitle : a fork of mbrn/material-table -->
   <h4>
@@ -35,7 +35,7 @@
         >
       </a>
       <!-- npm package -->
-      <a href="https://www.npmjs.com/package/@material-table/core">
+      <a href="https://www.npmjs.com/package/@technote-space/material-table">
         <img 
           title="npm_package" 
           src="https://badge.fury.io/js/%40material-table%2Fcore.svg"
@@ -89,11 +89,11 @@
 
 #### yarn
 
-`yarn add @material-table/core`
+`yarn add @technote-space/material-table`
 
 #### npm
 
-`npm install @material-table/core`
+`npm install @technote-space/material-table`
 
 ## Usage
 
@@ -103,15 +103,17 @@ Simply update your imports to receive the latest updates!
 
 ```diff
 - import MaterialTable from 'material-table';
-+ import MaterialTable from '@material-table/core';
++ import MaterialTable from '@technote-space/material-table';
 ```
 
 #### Compatibility
 
-If you can import it from `material-table` you can import it from `@material-table/core`. This will never change.
+If you can import it from `material-table` you can import it from `@technote-space/material-table`. This will never change.
 
 ```javascript
-import MaterialTable, { MTableAction /*, etc...*/ } from '@material-table/core';
+import MaterialTable, {
+  MTableAction /*, etc...*/,
+} from '@technote-space/material-table';
 ```
 
 ## Documentation
