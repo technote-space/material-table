@@ -585,40 +585,44 @@ export default class MaterialTable extends React.Component {
       this.props
         .data(query)
         .then((result) => {
-          query.totalCount = result.totalCount;
-          query.page = result.page;
-          this.dataManager.setData(result.data);
-          this.setState(
-            {
-              isLoading: false,
-              errorState: false,
-              ...this.dataManager.getRenderState(),
-              query,
-            },
-            () => {
-              callback && callback();
-            },
-          );
+          if (!this.props.unmountRef || !this.props.unmountRef.current) {
+            query.totalCount = result.totalCount;
+            query.page = result.page;
+            this.dataManager.setData(result.data);
+            this.setState(
+              {
+                isLoading: false,
+                errorState: false,
+                ...this.dataManager.getRenderState(),
+                query,
+              },
+              () => {
+                callback && callback();
+              },
+            );
+          }
         })
         .catch((error) => {
-          const localization = {
-            ...MaterialTable.defaultProps.localization,
-            ...this.props.localization,
-          };
-          const errorState = {
-            message:
-              typeof error === 'object'
-                ? error.message
-                : error !== undefined
-                ? error
-                : localization.error,
-            errorCause: 'query',
-          };
-          this.setState({
-            isLoading: false,
-            errorState,
-            ...this.dataManager.getRenderState(),
-          });
+          if (!this.props.unmountRef || !this.props.unmountRef.current) {
+            const localization = {
+              ...MaterialTable.defaultProps.localization,
+              ...this.props.localization,
+            };
+            const errorState = {
+              message:
+                typeof error === 'object'
+                  ? error.message
+                  : error !== undefined
+                  ? error
+                  : localization.error,
+              errorCause: 'query',
+            };
+            this.setState({
+              isLoading: false,
+              errorState,
+              ...this.dataManager.getRenderState(),
+            });
+          }
         });
     });
   };

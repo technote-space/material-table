@@ -386,4 +386,7 @@ export const propTypes = {
   style: PropTypes.object,
   page: PropTypes.number,
   totalCount: PropTypes.number,
+  unmountRef: PropTypes.shape({
+    current: PropTypes.bool,
+  }),
 };
