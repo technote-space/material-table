@@ -14,6 +14,18 @@ a fork of [mbrn/material-table](https://material-table.com)
 <!-- param::isNotitle::true:: -->
 <!-- param::isCustomMode::true:: -->
 
+<p align="center">
+<a href="#about">About</a>
+<span>|</span>
+<a href="#installation">Installation</a>
+<span>|</span>
+<a href="#usage">Usage</a>
+<span>|</span>
+<a href="#documentation">Documentation</a>
+<span>|</span>
+<a href="#contributing">Contributing</a>
+</p>
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
