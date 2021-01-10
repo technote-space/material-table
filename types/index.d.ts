@@ -2,6 +2,7 @@ import * as React from 'react';
 import { IconProps } from '@material-ui/core/Icon';
 import SvgIcon from '@material-ui/core/SvgIcon';
 import { string } from 'prop-types';
+import type { MutableRefObject } from 'react';
 
 type SvgIconComponent = typeof SvgIcon;
 
@@ -70,6 +71,7 @@ export interface MaterialTableProps<RowData extends object> {
   tableRef?: any;
   page?: number;
   totalCount?: number;
+  unmountRef?: MutableRefObject<boolean>;
 }
 
 export interface Filter<RowData extends object> {
