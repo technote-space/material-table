@@ -34,7 +34,7 @@
     "update": "npx npm-check-updates -u && yarn install && yarn upgrade && yarn audit"
   },
   "dependencies": {
-    "@date-io/date-fns": "^2.10.6",
+    "@date-io/date-fns": "^2.10.8",
     "@material-ui/pickers": "^3.2.10",
     "classnames": "^2.2.6",
     "date-fns": "^2.16.1",
@@ -48,26 +48,26 @@
     "react-double-scrollbar": "0.0.15"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
-    "@babel/plugin-transform-runtime": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
     "@material-ui/core": "^4.11.3",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "babel-polyfill": "^6.26.0",
-    "eslint": "^7.18.0",
+    "eslint": "^7.19.0",
     "eslint-plugin-only-warn": "^1.0.2",
     "eslint-plugin-react": "^7.22.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "webpack": "^5.18.0"
+    "webpack": "^5.20.2"
   },
   "peerDependencies": {
-    "@date-io/core": "^2.10.6",
+    "@date-io/core": "^2.10.7",
     "@material-ui/core": "^4.11.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
